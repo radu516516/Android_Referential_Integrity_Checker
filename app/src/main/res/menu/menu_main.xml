@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_action_refresh"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+
+    <item android:title="Check Integrity"
+        android:id="@+id/action_verifica_integritate_referentiala"
+        app:showAsAction="never"
+
+
+        />
+    <item android:title="Dangling Pointers"
+        android:id="@+id/action_dangling_pointers"
+        app:showAsAction="never"
+
+        />
+
+    <item android:title="Fix Delete Rows"
+        android:id="@+id/action_fix"
+        app:showAsAction="never"
+
+        />
+    <item android:title="Insert Row"
+        android:id="@+id/action_insert"
+        app:showAsAction="never"
+
+        />
+
+
+
+
+</menu>
